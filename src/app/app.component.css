@@ -1,0 +1,163 @@
+ .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #101010; /* light gray background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* light shadow */
+  }
+  
+  .mb-3 {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    font-weight: bold;
+    color: #f0efef; /* dark gray text color */
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff; /* white background */
+    color: #0f0f0f; /* dark gray text color */
+    box-shadow: inset 0 10px 30px rgba(39, 143, 234, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1); /* inner and outer shadow */
+  }
+  
+  input[type="name"],
+  input[type="password"],
+  input[type="email"],
+  input[type="number"] {
+    box-sizing: border-box;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff; /* blue button color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* button shadow */
+  }
+  
+  .btn:hover {
+    background-color: #0056b3; /* darker blue on hover */
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fai-techpark.com%2Feci-introduces-ella%2F&psig=AOvVaw0a-WN5Y-nxtBvc1GmS9rK9&ust=1713333666773000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLj-o7uHxoUDFQAAAAAdAAAAABAh.jpg'); /* Path to your image file */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background */
+    background-repeat: no-repeat; /* Do not repeat the background */
+    height: 100vh;
+    background-color: #333  ; /* Make the body's height equal to the viewport height */
+}
+
+.bottom-menu {
+  position: fixed; /* Fix the menu at the bottom of the viewport */
+  bottom: 0; /* Place the menu at the bottom of the viewport */
+  width: 100%; /* Set the menu width to 100% of the viewport */
+  background-color: #333; /* Set the background color */
+  padding: 10px 0; /* Add some padding */
+  margin: 0; /* Reset margin */
+  list-style-type: none; /* Remove default list styles */
+  text-align: center; /* Center the menu items horizontally */
+}
+
+.bottom-menu li {
+  display: inline-block; /* Display menu items in a row */
+  margin: 0 10px; /* Add some spacing between menu items */
+}
+
+.bottom-menu li a {
+  color: #fff; /* Set the text color */
+  text-decoration: none; /* Remove underline from links */
+  padding: 5px 10px; /* Add padding to links */
+}
+
+.bottom-menu li a:hover {
+  background-color: #555; /* Change background color on hover */
+}
+
+.active {
+  background-color: #f00; /* Set background color for active link */
+}
+
+.active{
+
+  background-color: black;
+  color: cadetblue;
+  font-size: large;
+}
+ul li{
+  list-style:none;
+  font-size: large;
+}
+ul a{
+  text-decoration: null;
+  font-size: large;
+}
+ul{
+  display: flex;
+  justify-content:flex-start;
+  background-color: black;
+  font-size: large;
+}
+a{
+  line-height: 50px;
+  color:rgb(242, 242, 248);
+  margin: 0 20px;
+  font-size: large;
+}
+
+.table-container {
+  margin-top: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table tbody tr:hover {
+  background-color: #ddd;
+}
+
+h1{
+  color:#f00;
+  text-shadow: mediumslateblue;
+  font-style: italic;
+  padding: 20px;
+  text-decoration: double;
+}
+
+
+
